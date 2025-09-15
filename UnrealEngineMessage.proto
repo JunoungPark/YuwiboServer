@@ -1,0 +1,118 @@
+syntax = "proto3";
+
+package UnrealEngineMessage; 
+
+enum ErrorCode {
+    NONE = 0;
+    UNKNOWN = 1;
+    INVALID_REQUEST = 2;
+    ROOM_NOT_FOUND = 3;
+    USER_ALREADY_EXISTS = 4;
+    USER_NAME_NONE = 5;
+    // ...
+}
+
+enum BroadcastType {
+    CHAT = 0;
+    SYSTEM = 1;
+    GAME_EVENT = 2;
+}
+
+message RoomInfo {
+    uint32 id = 1;           // 방의 ID
+    string room_name = 2;         // 방의 이름
+    uint32 current_player_count = 3;
+    uint32 max_player_count = 4;
+    string host_id = 5;
+}
+
+message UserInfo { 
+    string user_id = 1;
+    string user_name = 2;        
+}
+
+message Ping{
+}
+
+message Pong{
+    uint64 timestamp = 1;
+}
+
+message SigninRequest{
+    string user_id = 1;
+    string password = 2;
+}
+
+message SigninResponse {
+    bool success = 1;
+    ErrorCode error_code = 2;
+}
+
+message SignupRequest{
+    string user_id = 1;
+    string password = 2;
+}
+
+message SignupResponse{
+    bool success = 1;
+    ErrorCode error_code = 2;
+}
+
+message RegisterRequest{
+    string user_name = 1;
+}
+
+message RegisterResponse{
+}
+
+message CreateRoomRequest{
+    string room_name = 1;
+    uint32 max_player_count = 2;
+}
+
+message FindRoomRequest{
+    string room_name = 1;
+}
+
+message FindRoomResponse{
+    repeated RoomInfo rooms = 1;
+}
+
+message JoinRoomRequest{
+    uint32 id = 1;
+}
+
+message JoinRoomResponse{
+    bool success = 1;
+    ErrorCode error_code = 2;
+    RoomInfo room = 3;
+    repeated UserInfo users = 4;
+    string my_id = 5;        
+}
+
+message LeaveRoomRequest{
+    string room_name = 1;
+}
+
+message UpdateRoomInfo{
+    RoomInfo room = 1;
+    repeated UserInfo users = 2;
+    string my_id = 3;  
+}
+
+message BroadcastRequest{
+    string message = 1;
+}
+
+message BroadcastResponse{
+    UserInfo userinfo = 1;
+    string message = 2;
+}
+
+message GameRequest{
+    string url = 1;
+}
+
+message GameResponse{
+    string url = 1;
+}

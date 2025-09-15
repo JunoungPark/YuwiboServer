@@ -1,0 +1,3 @@
+/home/user/onlinesystem/build/CMakeFiles/onlinesystem.dir
+/home/user/onlinesystem/build/CMakeFiles/edit_cache.dir
+/home/user/onlinesystem/build/CMakeFiles/rebuild_cache.dir

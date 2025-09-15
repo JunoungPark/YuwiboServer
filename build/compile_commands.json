@@ -1,0 +1,104 @@
+[
+{
+  "directory": "/home/user/onlinesystem/build",
+  "command": "/usr/bin/c++  -I/home/user/onlinesystem/build -I/home/user/onlinesystem -isystem /home/user/vcpkg/installed/x64-linux/include -g -o CMakeFiles/onlinesystem.dir/Buffer.cpp.o -c /home/user/onlinesystem/Buffer.cpp",
+  "file": "/home/user/onlinesystem/Buffer.cpp",
+  "output": "CMakeFiles/onlinesystem.dir/Buffer.cpp.o"
+},
+{
+  "directory": "/home/user/onlinesystem/build",
+  "command": "/usr/bin/c++  -I/home/user/onlinesystem/build -I/home/user/onlinesystem -isystem /home/user/vcpkg/installed/x64-linux/include -g -o CMakeFiles/onlinesystem.dir/DatabaseManager.cpp.o -c /home/user/onlinesystem/DatabaseManager.cpp",
+  "file": "/home/user/onlinesystem/DatabaseManager.cpp",
+  "output": "CMakeFiles/onlinesystem.dir/DatabaseManager.cpp.o"
+},
+{
+  "directory": "/home/user/onlinesystem/build",
+  "command": "/usr/bin/c++  -I/home/user/onlinesystem/build -I/home/user/onlinesystem -isystem /home/user/vcpkg/installed/x64-linux/include -g -o CMakeFiles/onlinesystem.dir/Listener.cpp.o -c /home/user/onlinesystem/Listener.cpp",
+  "file": "/home/user/onlinesystem/Listener.cpp",
+  "output": "CMakeFiles/onlinesystem.dir/Listener.cpp.o"
+},
+{
+  "directory": "/home/user/onlinesystem/build",
+  "command": "/usr/bin/c++  -I/home/user/onlinesystem/build -I/home/user/onlinesystem -isystem /home/user/vcpkg/installed/x64-linux/include -g -o CMakeFiles/onlinesystem.dir/RecvBuffer.cpp.o -c /home/user/onlinesystem/RecvBuffer.cpp",
+  "file": "/home/user/onlinesystem/RecvBuffer.cpp",
+  "output": "CMakeFiles/onlinesystem.dir/RecvBuffer.cpp.o"
+},
+{
+  "directory": "/home/user/onlinesystem/build",
+  "command": "/usr/bin/c++  -I/home/user/onlinesystem/build -I/home/user/onlinesystem -isystem /home/user/vcpkg/installed/x64-linux/include -g -o CMakeFiles/onlinesystem.dir/Room.cpp.o -c /home/user/onlinesystem/Room.cpp",
+  "file": "/home/user/onlinesystem/Room.cpp",
+  "output": "CMakeFiles/onlinesystem.dir/Room.cpp.o"
+},
+{
+  "directory": "/home/user/onlinesystem/build",
+  "command": "/usr/bin/c++  -I/home/user/onlinesystem/build -I/home/user/onlinesystem -isystem /home/user/vcpkg/installed/x64-linux/include -g -o CMakeFiles/onlinesystem.dir/RoomManager.cpp.o -c /home/user/onlinesystem/RoomManager.cpp",
+  "file": "/home/user/onlinesystem/RoomManager.cpp",
+  "output": "CMakeFiles/onlinesystem.dir/RoomManager.cpp.o"
+},
+{
+  "directory": "/home/user/onlinesystem/build",
+  "command": "/usr/bin/c++  -I/home/user/onlinesystem/build -I/home/user/onlinesystem -isystem /home/user/vcpkg/installed/x64-linux/include -g -o CMakeFiles/onlinesystem.dir/SendBuffer.cpp.o -c /home/user/onlinesystem/SendBuffer.cpp",
+  "file": "/home/user/onlinesystem/SendBuffer.cpp",
+  "output": "CMakeFiles/onlinesystem.dir/SendBuffer.cpp.o"
+},
+{
+  "directory": "/home/user/onlinesystem/build",
+  "command": "/usr/bin/c++  -I/home/user/onlinesystem/build -I/home/user/onlinesystem -isystem /home/user/vcpkg/installed/x64-linux/include -g -o CMakeFiles/onlinesystem.dir/Session.cpp.o -c /home/user/onlinesystem/Session.cpp",
+  "file": "/home/user/onlinesystem/Session.cpp",
+  "output": "CMakeFiles/onlinesystem.dir/Session.cpp.o"
+},
+{
+  "directory": "/home/user/onlinesystem/build",
+  "command": "/usr/bin/c++  -I/home/user/onlinesystem/build -I/home/user/onlinesystem -isystem /home/user/vcpkg/installed/x64-linux/include -g -o CMakeFiles/onlinesystem.dir/SessionManager.cpp.o -c /home/user/onlinesystem/SessionManager.cpp",
+  "file": "/home/user/onlinesystem/SessionManager.cpp",
+  "output": "CMakeFiles/onlinesystem.dir/SessionManager.cpp.o"
+},
+{
+  "directory": "/home/user/onlinesystem/build",
+  "command": "/usr/bin/c++  -I/home/user/onlinesystem/build -I/home/user/onlinesystem -isystem /home/user/vcpkg/installed/x64-linux/include -g -o CMakeFiles/onlinesystem.dir/SslContextManager.cpp.o -c /home/user/onlinesystem/SslContextManager.cpp",
+  "file": "/home/user/onlinesystem/SslContextManager.cpp",
+  "output": "CMakeFiles/onlinesystem.dir/SslContextManager.cpp.o"
+},
+{
+  "directory": "/home/user/onlinesystem/build",
+  "command": "/usr/bin/c++  -I/home/user/onlinesystem/build -I/home/user/onlinesystem -isystem /home/user/vcpkg/installed/x64-linux/include -g -o CMakeFiles/onlinesystem.dir/ThreadManager.cpp.o -c /home/user/onlinesystem/ThreadManager.cpp",
+  "file": "/home/user/onlinesystem/ThreadManager.cpp",
+  "output": "CMakeFiles/onlinesystem.dir/ThreadManager.cpp.o"
+},
+{
+  "directory": "/home/user/onlinesystem/build",
+  "command": "/usr/bin/c++  -I/home/user/onlinesystem/build -I/home/user/onlinesystem -isystem /home/user/vcpkg/installed/x64-linux/include -g -o CMakeFiles/onlinesystem.dir/main.cpp.o -c /home/user/onlinesystem/main.cpp",
+  "file": "/home/user/onlinesystem/main.cpp",
+  "output": "CMakeFiles/onlinesystem.dir/main.cpp.o"
+},
+{
+  "directory": "/home/user/onlinesystem/build",
+  "command": "/usr/bin/c++  -I/home/user/onlinesystem/build -I/home/user/onlinesystem -isystem /home/user/vcpkg/installed/x64-linux/include -g -o CMakeFiles/onlinesystem.dir/TLS.cpp.o -c /home/user/onlinesystem/TLS.cpp",
+  "file": "/home/user/onlinesystem/TLS.cpp",
+  "output": "CMakeFiles/onlinesystem.dir/TLS.cpp.o"
+},
+{
+  "directory": "/home/user/onlinesystem/build",
+  "command": "/usr/bin/c++  -I/home/user/onlinesystem/build -I/home/user/onlinesystem -isystem /home/user/vcpkg/installed/x64-linux/include -g -o CMakeFiles/onlinesystem.dir/Hash.cpp.o -c /home/user/onlinesystem/Hash.cpp",
+  "file": "/home/user/onlinesystem/Hash.cpp",
+  "output": "CMakeFiles/onlinesystem.dir/Hash.cpp.o"
+},
+{
+  "directory": "/home/user/onlinesystem/build",
+  "command": "/usr/bin/c++  -I/home/user/onlinesystem/build -I/home/user/onlinesystem -isystem /home/user/vcpkg/installed/x64-linux/include -g -o CMakeFiles/onlinesystem.dir/PacketHandler.cpp.o -c /home/user/onlinesystem/PacketHandler.cpp",
+  "file": "/home/user/onlinesystem/PacketHandler.cpp",
+  "output": "CMakeFiles/onlinesystem.dir/PacketHandler.cpp.o"
+},
+{
+  "directory": "/home/user/onlinesystem/build",
+  "command": "/usr/bin/c++  -I/home/user/onlinesystem/build -I/home/user/onlinesystem -isystem /home/user/vcpkg/installed/x64-linux/include -g -o CMakeFiles/onlinesystem.dir/Worker.cpp.o -c /home/user/onlinesystem/Worker.cpp",
+  "file": "/home/user/onlinesystem/Worker.cpp",
+  "output": "CMakeFiles/onlinesystem.dir/Worker.cpp.o"
+},
+{
+  "directory": "/home/user/onlinesystem/build",
+  "command": "/usr/bin/c++  -I/home/user/onlinesystem/build -I/home/user/onlinesystem -isystem /home/user/vcpkg/installed/x64-linux/include -g -o CMakeFiles/onlinesystem.dir/UnrealEngineMessage.pb.cc.o -c /home/user/onlinesystem/build/UnrealEngineMessage.pb.cc",
+  "file": "/home/user/onlinesystem/build/UnrealEngineMessage.pb.cc",
+  "output": "CMakeFiles/onlinesystem.dir/UnrealEngineMessage.pb.cc.o"
+}
+]
