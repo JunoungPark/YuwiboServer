@@ -22,3 +22,6 @@ Protocol Buffers 및 OpenSSL을 활용하여 암호화 로그인, 로비 통신 
 - OpenSSL
 - MySQL
 - Sodium
+- 
+## 🏆 연관 프로젝트
+https://github.com/JunoungPark/Yuwibo
