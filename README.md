@@ -24,4 +24,4 @@ Protocol Buffers 및 OpenSSL을 활용하여 암호화 로그인, 로비 통신 
 - Sodium
 - 
 ## 🏆 연관 프로젝트
-[언리얼 엔진 게임 프로젝트](https://github.com/JunoungPark/Yuwibo)
+[Unreal Engine 프로젝트: Yuwibo](https://github.com/JunoungPark/Yuwibo)
